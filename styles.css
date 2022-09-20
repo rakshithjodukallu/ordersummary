@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    
+    
+    
+    background: url('./images/pattern-background-desktop.svg') repeat-x fixed  #dfe8ff;
+    /* background-size: cover; */
+}
+
+.ordersummary-outer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 16px;
+}
+
+.ordersummary-image img{
+    border-radius: 15px 15px 0 0 ;
+}
+.ordersummary-inner{
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+
+.ordersummary-details{
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.ordersummary-details h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.ordersummary-details p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #bbbeca;
+}
+
+.anual-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fe;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+
+.anual-text{
+    display: flex;
+    align-items: center;
+}
+
+.anual-text img{
+    margin-right: 15px;
+}
+
+.anual-text h6{
+    margin:0 0 4px 0;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.anual-text p{
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.anual-plan a{
+    font-weight: 700;
+color: #5144d1;
+font-size: 14px;
+text-decoration: none;
+}
+
+.payment{
+    background-color: #5144d1;
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #dcd5fb;
+}
+
+.payment:hover{
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+.cancel{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cancel a{
+   text-decoration: none;
+    color: #7181a3;
+}
+
+@media screen and (max-width: 767px) {
+    .ordersummary-details{
+        padding: 30px 15px;
+        text-align: center;
+    }
+    .ordersummary-details h1 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+  }
